@@ -411,7 +411,7 @@ use (simply by adding these flags after `gcc`) and they detect many
 bugs.
   
 Conditional Compilation
------------------------
+=======================
 
 In some cases, you want to turn on or off sections of code. For
 example, you may want to print messages showing the progress and
@@ -486,7 +486,7 @@ the program's requirement. If your program prints anything that is not
 required, you will lose points.
 
 Multiple Files
---------------
+==============
 
 Every non-trivial system is composed of multiple components.
 
@@ -595,7 +595,7 @@ This is equivalent to
 
 
 Test Coverage
--------------
+=============
 
 You would not write code for no purpose. You would think every line of
 code does something meaningful. However, sometimes, a program's
@@ -650,7 +650,7 @@ source file type
 If any line is marked `#####`, this line is not tested.
 
 How to Write High-Quality Software
-----------------------------------
+==================================
 
 If you ask the students that have taken ECE 264, many will tell you
 that ECE 264 "transformed" them from casual programmers to serious
@@ -703,7 +703,7 @@ strategy, however, is to prevent bugs through careful design. Then, it
 is important to detect bugs *automatically* by writing testing code.
 
 Testing and 1-5 Rule
---------============
+====================
 
 When you design software, you need to think about how to test. 
 
@@ -798,7 +798,7 @@ customers, software developers write another five lines of code for
 testing and are never shipped to customers. 
 
 Limit Core
-----------
+==========
 
 Coredump may be generated when your program terminates abnormally.
 Coredump can be a very large file and use up your disk quota.  It is
@@ -893,7 +893,7 @@ checking whether you submit correctly.
   Blackboard.  No exception.
 
 OFFICE and LAB HOURS
---------------------
+====================
 
 It is strongly encouraged to go to the office or lab hours for your
 questions. Face-to-face discussion is  much more
@@ -902,7 +902,7 @@ efficient than writing long emails.
 The teaching staff will NOT answer your questions by email, unless the questions are personal. 
 
 DO NOT SEND YOUR CODE TO TEACHING STAFF
----------------------------------------
+=======================================
 
 Under absolutely no circumstance will the teaching staff (instructors
 and teaching assistants) debug your programs without your presence.
@@ -910,8 +910,8 @@ Such email is **ALWAYS** ignored.
 
 If you need help, go to office or lab hours.
 
-EXCEPTIONAL SITUATIONS
-----------------------
+CAMPUS EMERGENCY OR EXCEPTION
+=============================
 
 If there is a campus-wide situation (such as severe weather or power
 outage), the instructors will extend submission deadlines for the
@@ -951,7 +951,7 @@ extension. Students have the right to request to the department, the
 college, or the university to examine the instructor's decision.
 
 FAIRNESS
---------
+========
 
 Before you ask the instructor for any special treatment, please ask
 yourself the following question:
@@ -981,12 +981,11 @@ more difficult.  It is important that you do well at the beginning of
 the semester.  If you do poorly at the beginning, it would be almost
 impossible to gain enough points later and get a good grade.
 
-HOW IS ECE 264 DIFFERENT FROM CS 159
-====================================
+ECE 264 IS ADVANCED C PROGRMMING
+================================
 
-ECE 264 is completely different from CS 159.  ECE 264 is much much
-much harder than CS 159.  Comparing these two makes no sense and would
-not help you.  **DO NOT** ask, "Why is this different from CS 159"**
-This is not CS 159. You are taking a different course.  ECE 264 is
-**Advanced** C Programming.
+If you want to become a professional software developer, ECE 264 is
+for you.  If you want an easy course getting a good grade without much
+effort, ECE 264 is a wrong course for you.
+
 
