@@ -233,9 +233,6 @@ zip select.zip select.c
 
 Upload select.zip to Blackboard.
 
-
-
-
 Additional Reading
 ==================
 
@@ -243,6 +240,11 @@ A mathematical question is to determine which element is left
 *without* counting 1, 2, ...  If you are interested in this topic,
 please read the book Concrete Mathematics by Ronald L. Graham, Donald
 E. Knuth, and Oren Patashnik.
+
+Is this a real problem? Is there any real application? Yes. In
+distributed systems (such as the Internet), sometimes different
+machines need to agree on something. For example, a group of machines
+want to find one representative for external communication. 
 
 History
 =======
@@ -254,6 +256,5 @@ is determined by the following method: they form a circle and set an
 integer k greater than one.  Then, the group starts with 1, 2, ... The
 person that counts k is eliminated.  The process continues until all
 are eliminated.  The question is where Josephus should stand at the
-beginning so that he is the last remaining person.
-
+beginning so that he is the last remaining person.  
 
