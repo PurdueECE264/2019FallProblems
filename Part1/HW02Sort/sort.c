@@ -4,7 +4,6 @@
 
 #include "sort.h"
 #include <stdio.h>
-#include <stdbool.h>
 
 // DO NOT MODIFY THIS FUNCTION
 bool checkOrder(int * arr, int size)
@@ -36,6 +35,5 @@ void ssort(int * arr, int size)
 
   // After finding the smallest element among the unsorted elements,
   // swap it with the element of the index from the first level
-  
 }
 #endif
