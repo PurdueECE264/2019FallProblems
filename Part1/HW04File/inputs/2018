@@ -1,0 +1,61 @@
+FATHERS OF THE DEEP LEARNING REVOLUTION RECEIVE ACM A.M. TURING AWARD 
+Bengio, Hinton, and LeCun Ushered in Major Breakthroughs in Artificial Intelligence 
+ACM named Yoshua Bengio, Geoffrey Hinton, and Yann LeCun recipients of the 2018 ACM A.M. Turing Award for conceptual and engineering breakthroughs that have made deep neural networks a critical component of computing. Bengio is Professor at the University of Montreal and Scientific Director at Mila, Quebec’s Artificial Intelligence Institute; Hinton is VP and Engineering Fellow of Google, Chief Scientific Adviser of The Vector Institute, and University Professor Emeritus at the University of Toronto; and LeCun is Professor at New York University and VP and Chief AI Scientist at Facebook.
+
+Working independently and together, Hinton, LeCun and Bengio developed conceptual foundations for the field, identified surprising phenomena through experiments, and contributed engineering advances that demonstrated the practical advantages of deep neural networks. In recent years, deep learning methods have been responsible for astonishing breakthroughs in computer vision, speech recognition, natural language processing, and robotics—among other applications.
+
+While the use of artificial neural networks as a tool to help computers recognize patterns and simulate human intelligence had been introduced in the 1980s, by the early 2000s, LeCun, Hinton and Bengio were among a small group who remained committed to this approach. Though their efforts to rekindle the AI community’s interest in neural networks were initially met with skepticism, their ideas recently resulted in major technological advances, and their methodology is now the dominant paradigm in the field.
+
+The ACM A.M. Turing Award, often referred to as the “Nobel Prize of Computing,” carries a $1 million prize, with financial support provided by Google, Inc. It is named for Alan M. Turing, the British mathematician who articulated the mathematical foundation and limits of computing.
+
+“Artificial intelligence is now one of the fastest-growing areas in all of science and one of the most talked-about topics in society,” said ACM President Cherri M. Pancake. “The growth of and interest in AI is due, in no small part, to the recent advances in deep learning for which Bengio, Hinton and LeCun laid the foundation. These technologies are used by billions of people. Anyone who has a smartphone in their pocket can tangibly experience advances in natural language processing and computer vision that were not possible just 10 years ago. In addition to the products we use every day, new advances in deep learning have given scientists powerful new tools—in areas ranging from medicine, to astronomy, to materials science.”
+
+"Deep neural networks are responsible for some of the greatest advances in modern computer science, helping make substantial progress on long-standing problems in computer vision, speech recognition, and natural language understanding,” said Jeff Dean, Google Senior Fellow and SVP, Google AI. “At the heart of this progress are fundamental techniques developed starting more than 30 years ago by this year's Turing Award winners, Yoshua Bengio, Geoffrey Hinton, and Yann LeCun. By dramatically improving the ability of computers to make sense of the world, deep neural networks are changing not just the field of computing, but nearly every field of science and human endeavor."
+
+Machine Learning, Neural Networks and Deep Learning
+
+In traditional computing, a computer program directs the computer with explicit step-by-step instructions. In deep learning, a subfield of AI research, the computer is not explicitly told how to solve a particular task such as object classification. Instead, it uses a learning algorithm to extract patterns in the data that relate the input data, such as the pixels of an image, to the desired output such as the label “cat.” The challenge for researchers has been to develop effective learning algorithms that can modify the weights on the connections in an artificial neural network so that these weights capture the relevant patterns in the data.
+
+Geoffrey Hinton, who has been advocating for a machine learning approach to artificial intelligence since the early 1980s, looked to how the human brain functions to suggest ways in which machine learning systems might be developed. Inspired by the brain, he and others proposed “artificial neural networks” as a cornerstone of their machine learning investigations.
+
+In computer science, the term “neural networks” refers to systems composed of layers of relatively simple computing elements called “neurons” that are simulated in a computer. These “neurons,” which only loosely resemble the neurons in the human brain, influence one another via weighted connections. By changing the weights on the connections, it is possible to change the computation performed by the neural network. Hinton, LeCun and Bengio recognized the importance of building deep networks using many layers—hence the term “deep learning.”
+
+The conceptual foundations and engineering advances laid by LeCun, Bengio and Hinton over a 30-year period were significantly advanced by the prevalence of powerful graphics processing unit (GPU) computers, as well as access to massive datasets. In recent years, these and other factors led to leap-frog advances in technologies such as computer vision, speech recognition and machine translation.
+
+Hinton, LeCun and Bengio have worked together and independently. For example, LeCun performed postdoctoral work under Hinton’s supervision, and LeCun and Bengio worked together at Bell Labs beginning in the early 1990s. Even while not working together, there is a synergy and interconnectedness in their work, and they have greatly influenced each other.
+
+Bengio, Hinton and LeCun continue to explore the intersection of machine learning with neuroscience and cognitive science, most notably through their joint participation in the Learning in Machines and Brains program, an initiative of CIFAR, formerly known as the Canadian Institute for Advanced Research.
+
+Select Technical Accomplishments
+
+The technical achievements of this year’s Turing Laureates, which have led to significant breakthroughs in AI technologies include, but are not limited to, the following:
+
+Geoffrey Hinton
+
+Backpropagation: In a 1986 paper, “Learning Internal Representations by Error Propagation,” co-authored with David Rumelhart and Ronald Williams, Hinton demonstrated that the backpropagation algorithm allowed neural nets to discover their own internal representations of data, making it possible to use neural nets to solve problems that had previously been thought to be beyond their reach. The backpropagation algorithm is standard in most neural networks today.
+
+Boltzmann Machines: In 1983, with Terrence Sejnowski, Hinton invented Boltzmann Machines, one of the first neural networks capable of learning internal representations in neurons that were not part of the input or output.
+
+Improvements to convolutional neural networks: In 2012, with his students, Alex Krizhevsky and Ilya Sutskever, Hinton improved convolutional neural networks using rectified linear neurons and dropout regularization. In the prominent ImageNet competition, Hinton and his students almost halved the error rate for object recognition and reshaped the computer vision field.
+
+Yoshua Bengio
+
+Probabilistic models of sequences: In the 1990s, Bengio combined neural networks with probabilistic models of sequences, such as hidden Markov models. These ideas were incorporated into a system used by AT&T/NCR for reading handwritten checks, were considered a pinnacle of neural network research in the 1990s, and modern deep learning speech recognition systems are extending these concepts.
+
+High-dimensional word embeddings and attention: In 2000, Bengio authored the landmark paper, “A Neural Probabilistic Language Model,” that introduced high-dimension word embeddings as a representation of word meaning. Bengio’s insights had a huge and lasting impact on natural language processing tasks including language translation, question answering, and visual question answering. His group also introduced a form of attention mechanism which led to breakthroughs in machine translation and form a key component of sequential processing with deep learning.
+
+Generative adversarial networks: Since 2010, Bengio’s papers on generative deep learning, in particular the Generative Adversarial Networks (GANs) developed with Ian Goodfellow, have spawned a revolution in computer vision and computer graphics. In one fascinating application of this work, computers can actually create original images, reminiscent of the creativity that is considered a hallmark of human intelligence.
+
+Yann LeCun
+
+Convolutional neural networks: In the 1980s, LeCun developed convolutional neural networks, a foundational principle in the field, which, among other advantages, have been essential in making deep learning more efficient. In the late 1980s, while working at the University of Toronto and Bell Labs, LeCun was the first to train a convolutional neural network system on images of handwritten digits. Today, convolutional neural networks are an industry standard in computer vision, as well as in speech recognition, speech synthesis, image synthesis, and natural language processing. They are used in a wide variety of applications, including autonomous driving, medical image analysis, voice-activated assistants, and information filtering.
+
+Improving backpropagation algorithms: LeCun proposed an early version of the backpropagation algorithm (backprop), and gave a clean derivation of it based on variational principles. His work to speed up backpropagation algorithms included describing two simple methods to accelerate learning time.
+
+Broadening the vision of neural networks: LeCun is also credited with developing a broader vision for neural networks as a computational model for a wide range of tasks, introducing in early work a number of concepts now fundamental in AI. For example, in the context of recognizing images, he studied how hierarchical feature representation can be learned in neural networks—a concept that is now routinely used in many recognition tasks. Together with Léon Bottou, he proposed the idea, used in every modern deep learning software, that learning systems can be built as complex networks of modules where backpropagation is performed through automatic differentiation. They also proposed deep learning architectures that can manipulate structured data, such as graphs.
+
+ACM will present the 2018 A.M. Turing Award at its annual Awards Banquet on June 15 in San Francisco, California.
+
+The A.M. Turing Award, the ACM's most prestigious technical award, is given for major contributions of lasting importance to computing.
+
+This site celebrates all the winners since the award's creation in 1966. It contains biographical information, a description of their accomplishments, straightforward explanations of their fields of specialization, and text or video of their A. M. Turing Award Lecture.
