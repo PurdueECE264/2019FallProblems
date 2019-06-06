@@ -1,5 +1,5 @@
 // ***
-// *** You MUST modify this file, only the ssort function
+// *** You MUST modify this file.
 // ***
 
 #include <stdio.h>
