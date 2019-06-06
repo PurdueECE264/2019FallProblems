@@ -3,8 +3,7 @@
 Learning Goals 
 ==============
 
-This assignment asks you to write a program that uses *selection sort*
-to sort an array of integers in the ascending order.
+This assignment asks you to write a program that reads characters from a file.
 
 You will learn to
 * Read characters from file

@@ -2,10 +2,6 @@
 // *** DO NOT modify this file
 // ***
 
-//This should be the master.
-//Changes in branch2
-//These are my changes in the issues branch
-
 #include <stdio.h>  
 #include <stdlib.h> 
 #include <string.h> 
@@ -21,7 +17,6 @@ int main(int argc, char * * argv)
     {
       return EXIT_FAILURE;
     }
-  // open file to read
   char counts[NUMCHAR] = {0}; // initialize all elements to zero
   bool rtv;
   rtv = countChar(argv[1], counts, NUMCHAR);
