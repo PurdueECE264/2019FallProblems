@@ -45,10 +45,4 @@ zip hw09.zip main.c hw09.c
 
 Enter Blackboard, upload `hw09.zip`.
 
-Where are the test cases?
-=========================
-
-By now, you should know how to create test cases. You should create
-test cases yourself and do not rely on the test cases given by the
-teaching staff.
 
