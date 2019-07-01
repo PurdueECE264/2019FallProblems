@@ -42,26 +42,6 @@ Warning: This assignment is *much much* harder than all previous assignments com
  * `bool writeInt(char* filename, int * intArr, int size)`
  * `int compareInt(const void *p1, const void *p2)`
 
-WARNINGS
-========
-
-Your program must not crash and must not leak memory.
-
-You will lose 1 point for every leaked byte. If your program leaks
-memory, it is very likely that you will receive zero.
-
-You know exactly (using `valgrind`) how to check memory errors. If
-your program leaks memory, it is like an airplane that leaks
-fuel. Your program *DOES NOT* work. Don't fool yourself and claim that
-your program works.
-
-Talk to professional software developers. Everyone will tell you
-memory leak is *unacceptable*.
-
-DO NOT COMPLAIN.  If you want to become a professional software
-developer, you need to meet the requirements of the real world.
-
-
 WHAT TO SUBMIT
 ==============
 
