@@ -275,13 +275,15 @@ How many possible orderings can the new deck have?
 |k!|2|6|24|120|720|
 
 * As you can see, *2<sup>k</sup>- 2* is equal to *k!*, when *k* is 2 or 3. *2<sup>k</sup>- 2* is smaller than *k!*, when *k* is 4 or larger. Thus, shuffling once cannot generate all possible orders, except for only k is 2. Actually, *2<sup>k</sup>- 2* counts the same output multiple times; in the previous example, `2` `3` `4` is counted twice and `4` `3` `2` is not generated. For simplicity, ECE 264 does not ask you to determine which orders are missing.
+
+If an order may be generated multiple times, your program should print it multiple times.
 	
 WHAT TO SUBMIT
 ==============
 
 
 ```
-zip hw10.zip main.c shuffle.c
+zip hw10.zip shuffle.c
 ```
 
 Enter Blackboard, upload `hw10.zip`.
