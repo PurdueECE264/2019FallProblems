@@ -15,7 +15,7 @@ int main(int argc, char * * argv)
   // argv[2]: name of output file (binary)
 
   // check whether there are three arguments.
-  // If not, return EXIT_FAILURE
+  // If not, return EXIT_FAILURE. DO NOT print anything
 
   // use argv[1] as the input to countVector, save the result
 
