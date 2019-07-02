@@ -228,10 +228,10 @@ Submission
 ==========
 
 ```
-zip select.zip select.c
+zip hw03.zip eliminate.c
 ```
 
-Upload select.zip to Blackboard.
+Upload hw03.zip to Blackboard.
 
 Additional Reading
 ==================
