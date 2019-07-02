@@ -1,0 +1,11 @@
+printListNode:       3       4       5 
+3
+printListNode:       1       2       4       5 
+1
+printListNode:       0       2       4       5 
+0
+printListNode:       2       4       5 
+2
+printListNode:       5 
+5
+4
