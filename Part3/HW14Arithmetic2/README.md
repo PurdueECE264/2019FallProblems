@@ -220,12 +220,14 @@ Example 4
 Consider the input (A + B) * (C + D) * (E + F).  
 
 
-Data Structure| Content
---------------|-------------
-Operator Stack| `[]` (empty)
-Output        | `[]` (empty)
-Operator Stack| `[(]` 
-Output        | `[A]` 
+Data Structure| Content       | Action
+--------------|---------------|--------
+Operator Stack| `[]` (empty)  |
+Output        | `[]` (empty)  |
+Operator Stack| `[(]`         | read `(`
+Output        | `[]`          |
+Operator Stack| `[(]`         | 
+Output        | `[A]`         | output `A`
 Operator Stack| `[(]` 
 Output        | `[A]` 
 Operator Stack| `[(+]` 
