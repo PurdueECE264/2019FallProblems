@@ -24,6 +24,9 @@ Examples
 
 A stack of operators is used to keep track of the order
 
+Example 1
+^^^^^^^^^
+
 Consider the input A * B + C (A, B, C are numbers).
 
 
@@ -54,11 +57,91 @@ Data Structure| Content
 Operator Stack| `[*]` 
 Output        | `[A B]` 
 
-The operator is popped from the stack and appended to the output.
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[*]` 
+Output        | `[A B]` 
+
+Next, read the operator +. *Since it has lower precedence, pop * and add it to the output.*  Push + to the stack.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+]` 
+Output        | `[A B *]` 
+
+The operand C is added to the output.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+]` 
+Output        | `[A B * C]` 
+
+Nothing is left in the input. Pop the stack and append it to the end of the output.
 
 Data Structure| Content
 --------------|-------------
 Operator Stack| `[]` 
-Output        | `[A B *]` 
+Output        | `[A B * C +]` 
+
+Example 2
+^^^^^^^^^
+
+Consider the input A + B * C 
 
 
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[]` (empty)
+Output        | `[]` (empty)
+
+
+A is a number and it is added to the output.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[]` (empty)
+Output        | `[A]` 
+
+Next, the operator + is seen. It is pushed to the operator stack.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+]` 
+Output        | `[A]` 
+
+The operand B is seen. B is added to the output.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+]` 
+Output        | `[A B]` 
+
+Next, read the operator *. It has a higher precedence than + in the
+stack and push it to the stack.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+*]` 
+Output        | `[A B]` 
+
+
+The operand C is added to the output.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+*]` 
+Output        | `[A B C]` 
+
+Nothing is left in the input. Pop the stack and append it to the end of the output.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[+]` 
+Output        | `[A B C *]` 
+
+Keep popping and appending to the end of the output.
+
+Data Structure| Content
+--------------|-------------
+Operator Stack| `[]` 
+Output        | `[A B C * +]` 
