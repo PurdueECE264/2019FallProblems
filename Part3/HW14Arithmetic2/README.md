@@ -19,8 +19,8 @@ Infix       | Postfix
 6 + 3 * 5   | 6 3 5 * +
 (6 + 3) * 5 | 6 3 + 5 *
 
-Algorithm
-=========
+Examples
+========
 
 A stack of operators is used to keep track of the order
 
@@ -34,7 +34,7 @@ Output        | `[]` (empty)
 
 First, A is a number and it is added to the output.
 
-Data Structure| 
+Data Structure| Content
 --------------|-------------
 Operator Stack| `[]` (empty)
 Output        | `[A]` 
@@ -42,21 +42,21 @@ Output        | `[A]`
 Next, the operator * is seen. It is pushed to the operator stack.
 
 
-Data Structure| 
+Data Structure| Content
 --------------|-------------
 Operator Stack| `[*]` 
 Output        | `[A]` 
 
 The operand B is seen. B is added to the output.
 
-Data Structure| 
+Data Structure| Content
 --------------|-------------
 Operator Stack| `[*]` 
 Output        | `[A B]` 
 
 The operator is popped from the stack and appended to the output.
 
-Data Structure| 
+Data Structure| Content
 --------------|-------------
 Operator Stack| `[]` 
 Output        | `[A B *]` 
