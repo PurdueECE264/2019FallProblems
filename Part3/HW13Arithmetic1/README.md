@@ -4,12 +4,13 @@ Learning Goals
 ==============
 
 * Understand postfix expressions
-* Use a stack to evaluate postfix expressions
+* Use a list to evaluate postfix expressions
+* Handle incorrect expressions
 
 This assignment is the first of two assignments for building a
 calculator. The program reads in operations from a file and outputs
 the result of the computation to another file. This assignment will
-use a *stack* to implement its calculator, and the next assignment
+use a *list* to implement its calculator, and the next assignment
 will use a *binary tree* to make your calculator more useable.
 
 Postfix Expressions
@@ -35,46 +36,25 @@ to get `90`. The postfix expression is `3 5 + 6 *`.  Please notice
 that it is different from the earlier expression when parentheses were
 not used.
 
-Stacks
-======
-
-A *stack* is a container (a data structure that holds items) that implements a
-*last in first out* (LIFO) policy: you can only retrieve items from the data
-structure in the reverse order that you put them in. Stacks can be easily implemented by linked lists by restricting how you add and remove elements:
-
-* *Adding* an element always places it at the front of the linked list (i.e., the `head` pointer will point to the new element). This operation is called a **push**.
-* *Removing* an element always removes the first element in the linked list (i.e., whatever `head` points to). This operation is called a **pop**
-
-Note that we've seen these terms, since a *program stack* is exactly
-this type of stack. When you call functions you *push* new frames on
-to the stack, and when you return from functions, you *pop* those
-frames off the stack, in the reverse order that you called the
-functions.  The call stack is managed by compilers and operating
-systems. In this assignment, you need to manage a linked list using
-your code.
-
-Using stacks to evaluate postfix expressions
+Using list to evaluate postfix expressions
 ============================================
 
-To evaluate a postfix expression, a commonly used method uses a stack
-to hold the *operands* (the numbers). The algorithm starting with an
-empty stack and scans the expression from left to right:
+To evaluate a postfix expression, a method uses a list to hold the
+*operands* (the numbers) and *operations*. The method scans the list
+from the beginning.
 
-* If an operand (a number) is seen, *push* it onto the stack.
+* If an operator (addition, subtraction, multiplication) is seen, take
+  the previous two operands, perform the opeartion on them, then store
+  the result back to the list.
 
-* If an operator (addition, subtraction, etc.) is seen, *pop* two
-  operands off the stack, perform the opeartion on them, then *push*
-  the result onto the stack.
+* Continue until the entire expression has been processed and there is
+exact one operand (number) left in the list.
 
-* Continue until you have processed the entire expression and there is
-exact one operand (number) left in the stack.
-
-* When an operator is seen and there are not two operands on the
-  stack, the expression is incorrect. For example, `7 +` or `*` are
-  two incorrect expressions. After all operators have been seen, the
-  stack should have exactly one number left.  For example, `2 8 3 +`
-  is incorrect.  For this assignment, you do not need to consider
-  these problems.
+* When an operator is seen and there are not two operands on the list,
+the expression is incorrect. For example, `7 +` or `*` are two
+incorrect expressions. After all operators have been seen, the list
+should have exactly one number left.  For example, `2 8 3 +` is
+incorrect because the result is `2 11` and two numbers are left.  
 
 Example
 -------
