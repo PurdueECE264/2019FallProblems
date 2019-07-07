@@ -29,7 +29,7 @@ A stack of operators is used to keep track of the order
 Consider the input A * B + C (A, B, C are numbers).
 
 
-Data Structure| 
+Data Structure| Content
 --------------|-------------
 Operator Stack| `[]` (empty)
 --------------|-------------

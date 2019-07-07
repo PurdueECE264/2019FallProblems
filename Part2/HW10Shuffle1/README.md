@@ -19,9 +19,10 @@ Learning Goals
 Please read both Part 1 and Part 2
 ==================================
 
-This assignment (part 1) asks you to shuffle cards only once. The next
-assignment (part 2) asks you to shuffle cards multiple times.  Please
-read both parts so that you can reuse part 1 as much as possible.
+This assignment (part 1, HW10) asks you to shuffle cards only
+once. The next assignment (part 2, HW11) asks you to shuffle cards multiple
+times.  Please read both parts so that you can reuse part 1 as much as
+possible.
 
 Your part 1's score will be at least 50% of the part 2's score. Thus,
 if you do well in part 2, you may get some points in part 1, even
