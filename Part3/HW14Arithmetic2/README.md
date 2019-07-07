@@ -221,29 +221,25 @@ Consider the input (A + B) * (C + D) * (E + F).
 
 
 Data Structure| Content       | Action
---------------|---------------|--------
+--------------|---------------|-----------------------
 Operator Stack| `[]` (empty)  |
 Output        | `[]` (empty)  |
-Operator Stack| `[(]`         | read `(`
+Operator Stack| `[(]`         | read and push `(`
 Output        | `[]`          |
 Operator Stack| `[(]`         | 
-Output        | `[A]`         | output `A`
-Operator Stack| `[(]` 
-Output        | `[A]` 
-Operator Stack| `[(+]` 
-Output        | `[A]` 
-Operator Stack| `[(+]` 
-Output        | `[A B]` 
-Operator Stack| `[]` 
-Output        | `[A B +]` 
-Operator Stack| `[(]` 
-Output        | `[A B +]` 
-Operator Stack| `[*]`
-Output        | `[A B +]`
-Operator Stack| `[* (]`
-Output        | `[A B + ]` 
-Operator Stack| `[* (]` 
-Output        | `[A B + C]` 
+Output        | `[A]`         | read and output `A`
+Operator Stack| `[(+]`        | read and push `+`
+Output        | `[A]`         |
+Operator Stack| `[(+]`        | 
+Output        | `[A B]`       | read and output `B`
+Operator Stack| `[]`          | read `)`, pop until `(`
+Output        | `[A B +]`     | 
+Operator Stack| `[*]`         | read and push `*`
+Output        | `[A B +]`     |
+Operator Stack| `[* (]`       | read and push `(`
+Output        | `[A B + ]`    |
+Operator Stack| `[* (]`       | 
+Output        | `[A B + C]`   | read and output `C`
 Operator Stack| `[* ( +]` 
 Output        | `[A B + C D]` 
 Operator Stack| `[* ]` 
