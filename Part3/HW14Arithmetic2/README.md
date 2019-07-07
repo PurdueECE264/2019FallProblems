@@ -19,13 +19,11 @@ Infix       | Postfix
 6 + 3 * 5   | 6 3 5 * +
 (6 + 3) * 5 | 6 3 + 5 *
 
-Examples
-========
+Example 1
+---------
 
 A stack of operators is used to keep track of the order
 
-Example 1
-^^^^^^^^^
 
 Consider the input A * B + C (A, B, C are numbers).
 
@@ -62,7 +60,7 @@ Data Structure| Content
 Operator Stack| `[*]` 
 Output        | `[A B]` 
 
-Next, read the operator +. *Since it has lower precedence, pop * and add it to the output.*  Push + to the stack.
+Next, read the operator +. **Since it has lower precedence, pop * and add it to the output.**  Push + to the stack.
 
 Data Structure| Content
 --------------|-------------
@@ -84,7 +82,7 @@ Operator Stack| `[]`
 Output        | `[A B * C +]` 
 
 Example 2
-^^^^^^^^^
+---------
 
 Consider the input A + B * C 
 
@@ -116,8 +114,8 @@ Data Structure| Content
 Operator Stack| `[+]` 
 Output        | `[A B]` 
 
-Next, read the operator *. It has a higher precedence than + in the
-stack and push it to the stack.
+Next, read the operator *. **It has a higher precedence than + in the
+stack and push it to the stack.**
 
 Data Structure| Content
 --------------|-------------
