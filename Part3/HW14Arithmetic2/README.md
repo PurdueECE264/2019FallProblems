@@ -220,46 +220,48 @@ Example 4
 Consider the input (A + B) * (C + D) * (E + F).  
 
 
-Data Structure| Content       | Action
---------------|---------------|-----------------------
-Operator Stack| `[]` (empty)  |
-Output        | `[]` (empty)  |
-Operator Stack| `[(]`         | read and push `(`
-Output        | `[]`          |
-Operator Stack| `[(]`         | 
-Output        | `[A]`         | read and output `A`
-Operator Stack| `[(+]`        | read and push `+`
-Output        | `[A]`         |
-Operator Stack| `[(+]`        | 
-Output        | `[A B]`       | read and output `B`
-Operator Stack| `[]`          | read `)`, pop until `(`
-Output        | `[A B +]`     | 
-Operator Stack| `[*]`         | read and push `*`
-Output        | `[A B +]`     |
-Operator Stack| `[* (]`       | read and push `(`
-Output        | `[A B + ]`    |
-Operator Stack| `[* (]`       | 
-Output        | `[A B + C]`   | read and output `C`
-Operator Stack| `[* ( +]` 
-Output        | `[A B + C D]` 
-Operator Stack| `[* ]` 
-Output        | `[A B + C D +]` 
-Operator Stack| `[]` 
-Output        | `[A B + C D + *]` 
-Operator Stack| `[* ]` 
-Output        | `[A B + C D + *]` 
-Operator Stack| `[* (]` 
-Output        | `[A B + C D + *]` 
-Operator Stack| `[* (]` 
-Output        | `[A B + C D + * E]` 
-Operator Stack| `[* ( +]` 
-Output        | `[A B + C D + * E]` 
-Operator Stack| `[* ( +]` 
-Output        | `[A B + C D + * E F]` 
-Operator Stack| `[* ]` 
-Output        | `[A B + C D + * E F + ]` 
-Operator Stack| `[]` 
-Output        | `[A B + C D + * E F + *]`
+Data Structure| Content                   | Action
+--------------|---------------------------|-----------------------
+Operator Stack| `[]` (empty)              |
+Output        | `[]` (empty)              |
+Operator Stack| `[(]`                     | read and push `(`
+Output        | `[]`                      |
+Operator Stack| `[(]`                     | 
+Output        | `[A]`                     | read and output `A`
+Operator Stack| `[(+]`                    | read and push `+`
+Output        | `[A]`                     |
+Operator Stack| `[(+]`                    | 
+Output        | `[A B]`                   | read and output `B`
+Operator Stack| `[]`                      | read `)`, pop until `(`
+Output        | `[A B +]`                 | 
+Operator Stack| `[*]`                     | read and push `*`
+Output        | `[A B +]`                 |
+Operator Stack| `[* (]`                   | read and push `(`
+Output        | `[A B + ]`                |
+Operator Stack| `[* (]`                   | 
+Output        | `[A B + C]`               | read and output `C`
+Operator Stack| `[* ( +]`                 | read and push `+`
+Output        | `[A B + C]`               |
+Operator Stack| `[* ( +]`                 | 
+Output        | `[A B + C D]`             | read and output `D`
+Operator Stack| `[* ]`                    | read `)`, pop until `(`
+Output        | `[A B + C D +]`           |  
+Operator Stack| `[]`                      | read `*`. It has the same precedence, pop `*` and add to output
+Output        | `[A B + C D + *]`         |
+Operator Stack| `[* ]`                    | push `*`
+Output        | `[A B + C D + *]`         | 
+Operator Stack| `[* (]`                   | read and push `(`
+Output        | `[A B + C D + *]`         | 
+Operator Stack| `[* (]`                   | read and output `E`
+Output        | `[A B + C D + * E]`       |  
+Operator Stack| `[* ( +]`                 | read and push `+`
+Output        | `[A B + C D + * E]`       |
+Operator Stack| `[* ( +]`                 | 
+Output        | `[A B + C D + * E F]`     | read and output `F`
+Operator Stack| `[* ]`                    | read `)`, pop until `(`
+Output        | `[A B + C D + * E F + ]`  | 
+Operator Stack| `[]`                      | pop the stack and output
+Output        | `[A B + C D + * E F + *]` |
 
 
 
