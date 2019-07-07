@@ -16,9 +16,7 @@ in postfix expression. Consider the following examples:
 Infix       | Postfix
 ------------|----------
 6 + 3 - 5   | 6 3 + 5 -
-------------|----------
 6 + 3 * 5   | 6 3 5 * +
-------------|----------
 (6 + 3) * 5 | 6 3 + 5 *
 
 Algorithm
@@ -32,7 +30,6 @@ Consider the input A * B + C (A, B, C are numbers).
 Data Structure| Content
 --------------|-------------
 Operator Stack| `[]` (empty)
---------------|-------------
 Output        | `[]` (empty)
 
 First, A is a number and it is added to the output.
@@ -40,7 +37,6 @@ First, A is a number and it is added to the output.
 Data Structure| 
 --------------|-------------
 Operator Stack| `[]` (empty)
---------------|-------------
 Output        | `[A]` 
 
 Next, the operator * is seen. It is pushed to the operator stack.
@@ -49,7 +45,6 @@ Next, the operator * is seen. It is pushed to the operator stack.
 Data Structure| 
 --------------|-------------
 Operator Stack| `[*]` 
---------------|-------------
 Output        | `[A]` 
 
 The operand B is seen. B is added to the output.
@@ -57,7 +52,6 @@ The operand B is seen. B is added to the output.
 Data Structure| 
 --------------|-------------
 Operator Stack| `[*]` 
---------------|-------------
 Output        | `[A B]` 
 
 The operator is popped from the stack and appended to the output.
@@ -65,7 +59,6 @@ The operator is popped from the stack and appended to the output.
 Data Structure| 
 --------------|-------------
 Operator Stack| `[]` 
---------------|-------------
 Output        | `[A B *]` 
 
 
