@@ -224,20 +224,47 @@ Data Structure| Content
 --------------|-------------
 Operator Stack| `[]` (empty)
 Output        | `[]` (empty)
-
 Operator Stack| `[(]` 
 Output        | `[A]` 
-
 Operator Stack| `[(]` 
 Output        | `[A]` 
-
 Operator Stack| `[(+]` 
 Output        | `[A]` 
-
 Operator Stack| `[(+]` 
 Output        | `[A B]` 
-
 Operator Stack| `[]` 
 Output        | `[A B +]` 
+Operator Stack| `[(]` 
+Output        | `[A B +]` 
+Operator Stack| `[*]`
+Output        | `[A B +]`
+Operator Stack| `[* (]`
+Output        | `[A B + ]` 
+Operator Stack| `[* (]` 
+Output        | `[A B + C]` 
+Operator Stack| `[* ( +]` 
+Output        | `[A B + C D]` 
+Operator Stack| `[* ]` 
+Output        | `[A B + C D +]` 
+Operator Stack| `[]` 
+Output        | `[A B + C D + *]` 
+Operator Stack| `[* ]` 
+Output        | `[A B + C D + *]` 
+Operator Stack| `[* (]` 
+Output        | `[A B + C D + *]` 
+Operator Stack| `[* (]` 
+Output        | `[A B + C D + * E]` 
+Operator Stack| `[* ( +]` 
+Output        | `[A B + C D + * E]` 
+Operator Stack| `[* ( +]` 
+Output        | `[A B + C D + * E F]` 
+Operator Stack| `[* ]` 
+Output        | `[A B + C D + * E F + ]` 
+Operator Stack| `[]` 
+Output        | `[A B + C D + * E F + *]`
+
+
+
+
 
 
