@@ -10,8 +10,13 @@ Learning Goals
 This assignment is the first of two assignments for building a
 calculator. The program reads in operations from a file and outputs
 the result of the computation to another file. This assignment will
-use a *list* to implement its calculator, and the next assignment
-will use a *binary tree* to make your calculator more useable.
+use a *list* to implement its calculator. The next assignment
+asks you to convert infix expression to postfix expression.
+
+Please read both Part 1 (HW13) and Part 2 (HW14). Your part 1's score
+will be at least 50% of the part 2's score. Thus, if you do well in
+part 2, you may get some points in part 1, even though your original
+score for part 1 may be low.
 
 Postfix Expressions
 ===================
@@ -36,6 +41,11 @@ to get `90`. The postfix expression is `3 5 + 6 *`.  Please notice
 that it is different from the earlier expression when parentheses were
 not used.
 
+You may ask, "Why bother using postfix?" Infix is easier for humans
+but postfix is easier for machines.  
+
+
+
 Using list to evaluate postfix expressions
 ============================================
 
@@ -50,11 +60,6 @@ from the beginning.
 * Continue until the entire expression has been processed and there is
 exact one operand (number) left in the list.
 
-* When an operator is seen and there are not two operands on the list,
-the expression is incorrect. For example, `7 +` or `*` are two
-incorrect expressions. After all operators have been seen, the list
-should have exactly one number left.  For example, `2 8 3 +` is
-incorrect because the result is `2 11` and two numbers are left.  
 
 Example
 -------
@@ -80,8 +85,22 @@ onto the stack: `[29]`.
 Now we're done with the expression and there is only one operand left
 on the stack and the answer is `29`.
 
+Handle Errors
+=============
+
 You can assume that every line in the input is either a number of a
 valid operator.
+
+You must not assume, however, that the input expression is
+valid. There are many possible invalid scenarios of invalid
+expressions.  When an operator is seen and there are not two operands
+before this operator on the list, the expression is incorrect. For
+example, `7 +` or `*` are two incorrect expressions. After all
+operators have been seen, the list should have exactly one number
+left.  For example, `2 8 3 +` is incorrect because the result is `2
+11` and two numbers are left.
+
+If an expression has only a single number, it is consider valid.
 
 Submission
 ==========
