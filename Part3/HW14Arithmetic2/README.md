@@ -19,6 +19,16 @@ Infix       | Postfix
 6 + 3 * 5   | 6 3 5 * +
 (6 + 3) * 5 | 6 3 + 5 *
 
+Each input line can be one of the following
+1. A number
+2. An operator `+`, `-`, or `*`
+3. An open parenthesis `(`
+4. A close parenthesis `)`
+
+For simplicity, you may assume that the infix inputs are always valid.
+
+
+
 Example 1
 ---------
 
