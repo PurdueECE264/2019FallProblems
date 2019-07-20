@@ -85,9 +85,9 @@ post-order: [1425, 440]
 
 Right
 
-in-order: [7985, 8186]
+in-order: [7985, 8168]
 
-post-order: [8186, 7985]
+post-order: [8168, 7985]
 
 For the left side, 440 is the root. Thus the left side of the tree is
 
@@ -105,7 +105,7 @@ Similarly, the right side is
         7985
 	  \
 	   \
-	  8186
+	  8168
 `
 
 The complete tree is
@@ -117,11 +117,11 @@ The complete tree is
        440     7985
          \       \
 	  \       \
-         1425 	 8186
+         1425 	 8168
 
 `
 
-The pre-order output is [4746, 440, 1425, 7985, 8186].
+The pre-order output is [4746, 440, 1425, 7985, 8168].
 
 
 
