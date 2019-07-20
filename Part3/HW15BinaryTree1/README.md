@@ -52,20 +52,8 @@ output; thus, the root has no right child.  Both 886 and 2777 are on
 the left side.
 
 Next, consider the post-order of these two numbers: 886 is after 2777
-so 886 must be the left child of 9383 and the parent of 2777.  The tree is
-
-`
-               9383
-              /
-	     /
-	    /
-	  886
- 	    \
-	    2777
-
-`
-
-The pre-order ouput is [9383, 886, 2777].
+in post-order so 886 must be the left child of 9383 and the parent of
+2777.  The pre-order ouput is [9383, 886, 2777].
 
 Next, consider a more complex example:
 
@@ -89,43 +77,12 @@ in-order: [7985, 8168]
 
 post-order: [8168, 7985]
 
-For the left side, 440 is the root. Thus the left side of the tree is
+For the left side, 440 is the root and 1425 is the right child.
 
-`
-          440
-	   \
-	    \
-           1425	 
-	 
-`
+Similarly, for the right side, 7985 is the root and 8168 is the right child.
 
-Similarly, the right side is
-
-`
-        7985
-	  \
-	   \
-	  8168
-`
-
-The complete tree is
-
-`
-           4746
-	  /   \
-	 /     \
-       440     7985
-         \       \
-	  \       \
-         1425 	 8168
-
-`
 
 The pre-order output is [4746, 440, 1425, 7985, 8168].
-
-
-
-
 
 
 Submission
