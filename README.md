@@ -1,5 +1,7 @@
 # 2019 Fall Problems for Purdue ECE 264 "Advanced C Programming"
 
+**DRAFT**
+
 This class is going through major restructuring to reflect the needs
 of students, new technologies in software engineering, and
 expectations from industry.
@@ -15,8 +17,8 @@ The problems are classified into four parts:
 * Part 4: Experiment create a large program by students across multiple semesters
 
 
-Schedule
-========
+Tentative Schedule
+==================
 
 |Week | Monday | Tuesday | Wednesday | Thursday | Friday |
 |-----|--------|---------|-----------|----------|--------|
@@ -69,7 +71,6 @@ Part 4 Applications
 ===================
 
 
-* HW04Kmean: Clustering data. Array. Makefile. Data Analytics. This assignment is much harder than the previous three combined. Please start early.
 
 How are Programming Assignments Graded?
 =======================================
@@ -212,13 +213,25 @@ Frequently Asked Questions
   my answers when these restrictions are imposed. 
 
 * A: It is certainly possible writing answers with these restrictions
-  because the teaching staff has already written the answers. If you
-  think it is not possible, you do not understand the materials.
+**because the teaching staff has already written the answers.** If you
+think it is not possible, you do not understand the materials.
 
 * Q: I do not care. I must change the files that say, "DO NOT modify
   this file".
 
 * A: You will probably receive zero if you change these files.
+
+* Q: What is the most importance advice you would give?
+
+* A: This course is harder than most students expect. It is extremely
+  unlikely that you can finish an assignment quickly. Start homework
+  as soon as possible.
+
+* Q: What is your second most important advice?
+
+* A: Understand: "Spend time to save time." Many students want to
+  rush. They start coding without studying or thinking. They do not
+  spend time learning debugger.  If you rush, it will take longer.
 
 
 WARNINGS: Your Programs Must Not Crash and Must Not Leak Memory
@@ -248,7 +261,26 @@ teaching staff accepts the possibility that the grading programs may
 be wrong. Please also open your mind and accept the *possibility* that
 your program *may* be wrong.  Before you get angry and think you are
 not treated fairly, understand what happens.  The teaching staff
-provides all information you need to test your programs.  
+provides all information you need to test your programs.
+
+Computers are Stupid, By Design
+===============================
+
+Computers are designed during the second World War and Cold War to
+control weapons. As a result, computers are stupid by design.
+Computers do exactly what programs tell them to do.  Computers cannot
+guess your mind. Computers cannot tolerate "small" mistakes.
+
+Know Your Friends: Everyone in Class
+====================================
+
+The teaching staff and your classmates are your friends.  They want to
+work with you and help you become a professional software developer.
+Many studies have demonstrated that people learn more effectively in
+friendly environments.  There is a worldwide severe shortage of good
+software developers.  When everyone helps everyone become a better
+software developer, everyone benefits.
+
 
 Regrading Requests
 ==================
