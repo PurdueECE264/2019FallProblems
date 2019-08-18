@@ -22,7 +22,7 @@ For the first question: How much resource to acquire. Imagine these scenarios:
 
 - You are building a restaurant, how many tables do you want?
 
-For the first question: How to allocate resource? Imagine these scenarios:
+For the second question: How to allocate resource? Imagine these scenarios:
 
 - A customer needs six trucks for one week transporting something from
   New York to Seattle. Another customer needs two trucks for one day
@@ -107,6 +107,7 @@ Let's run through several examples:
 Starting from all blocks unoccupied.
 
 If allocation succees, the program returns the ID of the first block.
+
 Allocate two blocks:
 
 
@@ -196,7 +197,84 @@ Allocate four blocks:
 
 Return 2.
 
+
+Required Functions
+==================
+
 Please read `memory.c` carefully and implement the needed functions.
+
+For this assignment, you need to design and implement five
+functions. Among them, `allocateMemory`, `saveOccupancy`, and
+`freeMemory` are particularly important.
+
+- `allocateMemory` takes two arguments: a memory object and the number
+  of blocks to allocate. It returns the index of the starting block of
+  one (or several) block large enough. If it is not possible to find
+  consecutive blocks for the size, this function returns -1.
+
+- `freeMemory` takes two arguments: a memory object and the starting
+  index of one (or several) consecutive blocks. This starting address
+  should be returned by `allocateMemory` as a previously allocated
+  blocks of memory. If the starting address is invalid, this function
+  does nothing.
+
+Consider the following memory:
+
+|block | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+|------|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|
+|      | - | - | - | - | - | - | * | * | * | * | -  | -  | -  | -  | -  |  - | -  | -  | -  | -  |
+
+Allocate two blocks:
+
+|block | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+|------|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|
+|      | - | - | - | - | - | - | * | * | * | * | -  | -  | -  | -  | -  |  - | -  | -  | -  | -  |
+
+`allocateMemory` returns 0.
+
+
+|block | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
+|------|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|
+|      | * | * | - | - | - | - | * | * | * | * | -  | -  | -  | -  | -  |  - | -  | -  | -  | -  |
+
+If `freeMemory`'s second argment is 1, this argument is invalid because `allocateMemory` did not return 1.
+
+If `freeMemory`'s second argment is 12, this argument is invalid because block 13 is unoccupied.
+
+
+- `saveOccupancy`: saves the occupancies of each block to a *binary*
+  file. **Each block is represented by one bit**.  The memory shown
+  above will be saved as
+  (binary) 1100 0011 1100 0000 0000
+
+  Since this is not a multiple of 8, 0's are added to the end:
+
+  (binary) 1100 0011 1100 0000 0000 0000
+
+  These bytes are saved to the file (3 bytes).
+
+Encapsulation
+=============
+
+This assignment gives you a lot of flexibility. You design how to keep
+track of the occupied blocks. You design how to manage these blocks, as long
+the functions behave correctly from *external* viewpoints (to the callers and
+the output file).
+
+This concept is called **encapsulation** in object-oriented programming:
+You have the freedom to change the internal representations of data
+structures, as long as externally the program behaves correctly.
+
+It is strongly suggested that you think carefully about how to design
+this program.  Efficiency (using memory or time) is not particularly
+important here. Thus, you may use more memory or slow methods, as long
+your program behaves correctly.  In fact, it is advised that you start
+with really simple solutions without worrying about efficiency too
+much.  After you understand how to design the program, you may choose
+to improve efficiency (in memory, or time, or both).  Obviously, your
+program must be fast enough so it can be graded. Please make sure your
+program does not enter an infinite loop in any case.
+
 
 Submission
 ==========
