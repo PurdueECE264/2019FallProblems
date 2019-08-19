@@ -208,11 +208,11 @@ way for measurement.
 The instructors do not make these rules.  These are the rules in the
 real world.
 
-Most the instructors *want* to give you partial credits for the
-purpose of encouraging you to learn. However, in many cases, it is not
-possible to give you partial credits.  If your C program misses a
-semicolon, the program may fail to compile and there is no possibility
-giving any partial credit because the program cannot run.  
+The instructors *want* to give you partial credits for the purpose of
+encouraging you to learn. However, in many cases, it is not possible
+to give you partial credits.  If your C program misses a semicolon,
+the program may fail to compile and there is no possibility giving any
+partial credit because the program cannot run.
 
 Please understand that this is a large class and students' submissions
 are graded by computer programs.  Your submissions must meet the
@@ -236,7 +236,7 @@ read each student's code, understanding and correcting errors, would
 not be an acceptable solution.  
 
 
-Learning Goals 
+Learning Tools
 ==============
 
 This assignment will help you learn some most widely used tools:
@@ -879,7 +879,7 @@ the clock of the machine that runs Blackboard (not your own watch).
 
 The **only** way to submit homework is through Blackboard.
 
-The instructor will **never** accept any request for exception "*my
+The instructors will **never** accept any request for exception "*my
 submission is only one minute late*".  It is your responsibility to
 meet the deadline.  You are strongly encouraged to submit at least ten
 minutes before the deadline because submission may take time.
@@ -924,15 +924,10 @@ computer is inside your dog's body. Without such a document, you still
 need to submit assignments before deadlines.
 
 If you encounter an exceptional situation (such as injury in a traffic
-accident or serious illness), the instructor will grant extensions
+accident or serious illness), the instructors will grant extensions
 based on the recommendations of the proper authorities (such as
 medical doctors or police).  You are responsible providing proper
 documents requesting the extensions.
-
-The teaching staff will **NOT** respond to email marked "URGENT".  For
-all emergencies, please call 911.  All email marked **URGENT** is
-automatically ignored because ECE 264 teaching staff is not trained as
-first responders.
 
 **DO NOT ASK FOR AN EXTENSION** because you will not get it. Do not
   waste your time asking a question whose answer is already known. It
@@ -946,17 +941,17 @@ first responders.
 It is possible that an extension is given to the entire class, not a
 specific person.
 
-The instructor reserves the right to reject any request of
+The instructors reserve the right to reject any request of
 extension. Students have the right to request to the department, the
 college, or the university to examine the instructor's decision.
 
 FAIRNESS
 ========
 
-Before you ask the instructor for any special treatment, please ask
+Before you ask the instructors for any special treatment, please ask
 yourself the following question:
 
-*"If the instructor does this to another student but not me, would it be fair?"*
+*"If the instructors do this to another student but not me, would it be fair?"*
 
 If the answer is no, then do not ask.
 
@@ -981,11 +976,10 @@ more difficult.  It is important that you do well at the beginning of
 the semester.  If you do poorly at the beginning, it would be almost
 impossible to gain enough points later and get a good grade.
 
-ECE 264 IS ADVANCED C PROGRMMING
-================================
+ECE 264 IS "ADVANCED" C PROGRMMING
+==================================
 
 If you want to become a professional software developer, ECE 264 is
 for you.  If you want an easy course getting a good grade without much
-effort, ECE 264 is a wrong course for you.
-
+effort, ECE 264 is not for you.
 

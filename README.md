@@ -23,20 +23,21 @@ Tentative Schedule
 |Week | Monday | Tuesday | Wednesday | Thursday | Friday |
 |-----|--------|---------|-----------|----------|--------|
 | 01  |        |         |           |          |  01    |
-| 02  |        |         |    02     |          |  03    |
-| 03  |  04    |         |    05     |          |  06    |
-| 04  |        |         |           |   07     |        |
-| 05  |        |         |    08     |          |        |
-| 06  |        |   09    |           |          |        |
-| 07  |  10    |         |           |          |  11    |
-| 08  |        |         |           |   12     |        |
-| 09  |        |         |           |   13     |        |
-| 10  |        |         |   14      |          |        |
-| 11  |        |  15     |           |   14     |        |
-| 12  | 16     |         |           |          |   17   |
-| 13  |        |         |           |   18     |        |
-| 14  |        |         |   19      |          |        |
-| 15  |        |         |           |          |   20   |
+| 02  |        |         |    02     |          |        |
+| 03  |        |   03    |           |          |        |
+| 04  |  04    |         |           |          |  05    |
+| 05  |        |         |    06     |          |        |
+| 06  |  07    |         |           |          |  08    |
+| 07  |        |         |           |   09     |        |
+| 08  |        |         |   10      |          |        |
+| 09  |        |   11    |           |          |        |
+| 10  |  12    |         |           |          |   13   |
+| 11  |        |         |           |   14     |        |
+| 12  |        |         |   15      |          |        |
+| 13  |        |   16    |           |          |        |
+| 14  |  17    |         |           |          |        |
+| 15  |        Thanksgiving                              |
+| 16  |        |  18     |           |          |  bonus |
 
 Part 1 Basic
 ============
@@ -72,6 +73,7 @@ Part 4 Applications
 ===================
 
 * HW17Maze: find the shortest distances between the source to all reachable locations
+* HW18Memory: allocate and free memory blocks and bit operations
 
 
 How are Programming Assignments Graded?
