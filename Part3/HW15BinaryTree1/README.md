@@ -1,4 +1,4 @@
-# Check Whether A Binary Tree is a Binary Search Tree
+# Build a Binary Tree from In-Order and Post-Order
 
 Learning Goals
 ==============
@@ -7,6 +7,12 @@ Learning Goals
 * Traverse binary trees using pre-order, in-order, and post-order 
 * Construct binary trees from in-order and post-order expressions
 * Validate the constructed binary is a binary search tree
+
+This assignment is the first of two assignments for building and
+traversing binary trees. Please read both Part 1 (HW15) and Part 2
+(HW16). Your part 1's score will be at least 50% of the part 2's
+score. Thus, if you do well in part 2, you may get some points in part
+1, even though your original score for part 1 may be low.
 
 Binary Search Tree
 ==================
@@ -83,6 +89,9 @@ Similarly, for the right side, 7985 is the root and 8168 is the right child.
 
 
 The pre-order output is [4746, 440, 1425, 7985, 8168].
+
+For this assignment, you may assume that the inputs are valid: the
+in-order and the post-order are from the same binary search tree.
 
 
 Submission

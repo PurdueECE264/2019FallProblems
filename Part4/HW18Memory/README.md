@@ -253,6 +253,11 @@ If `freeMemory`'s second argment is 12, this argument is invalid because block 1
 
   These bytes are saved to the file (3 bytes).
 
+Useful Tool
+===========
+
+You will likely find `xxd -b` very helpful. It shows the bits stored in a binary file.
+
 Encapsulation
 =============
 

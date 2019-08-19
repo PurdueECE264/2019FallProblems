@@ -65,11 +65,13 @@ Part 3 Dynamic Structure
 * HW12Cake2: Who gets the cake? Use linked list.
 * HW13Arithmetic1: Perform arithmetic calculation using postfix expression.
 * HW14Arithmetic2: Convert an infix expression to postfix.
-* HW15
+* HW15BinaryTree1: Build a binary tree from in-order and post-order
+* HW16BinaryTree2: Print the path from a node to the root
 
 Part 4 Applications
 ===================
 
+* HW17Maze: find the shortest distances between the source to all reachable locations
 
 
 How are Programming Assignments Graded?
