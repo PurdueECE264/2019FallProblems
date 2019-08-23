@@ -369,7 +369,7 @@ If you read the manual (also called the "man page") of `gcc`, you can
 find many options.  In this class, you should **always** use `gcc` in the
 following way.
 
-`> gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror`
+`> gcc -std=c99 -g -Wall -Wshadow -pedantic -Wvla -Werror`
 
 * `>` is the command prompt
 * `-std=c99` means using the C standard announced in 1999
