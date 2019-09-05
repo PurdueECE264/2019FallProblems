@@ -24,6 +24,14 @@ exists but cannot be read. If `fopen` wants to write a file, the file
 may exist but it is read-only. It is also possible that there is space
 available on the disk.
 
+What you need to do
+===================
+You need to write a function called `countChar(char * filename, int * counts, int size)` 
+that opens a file named `filename`. If it fails return false, **DO NOT** `fclose`. You have to store the count of each charecter in the count array. Further instructions are in the comments in the function in file `filechar.c`
+
+You also need to write a function called `printCounts(int * counts, int size)` that prints out the count of each charecter.
+Further instructions are in the comments in the function in file `filechar.c`
+
 Test Your Program
 =================
 
