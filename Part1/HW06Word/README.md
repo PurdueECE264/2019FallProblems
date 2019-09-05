@@ -18,6 +18,14 @@ This assignment uses `fgets` to read strings from a file, uses
 This assignment is a simplified version of the `grep` command in
 Linux.
 
+What To Do
+==========
+
+You need to write a function called `countWord(char * filename, char * word, char * line, int size)` 
+that opens a file named `filename`, counts the number of occurences of given word in the file,
+and returns it. If `fopen()` fails, return -1, and **DO NOT** fclose.
+Further instructions are in the comments in the function in file `filestr.c`.
+
 WHAT TO SUBMIT
 ==============
 
