@@ -20,7 +20,7 @@ number, you can use `fprintf`.
 What You Need To Do
 ===================
 
-You need to write a function called `addFile(char * filename, int * sum) that opens a file named filename. If it fails, return false, and **DO NOT** `fclose()`. You have to read the integers in given file, and store the sum. Further instructions are in the comments in the function in file `fileint.c`.
+You need to write a function called `addFile(char * filename, int * sum)` that opens a file named filename. If it fails, return false, and **DO NOT** `fclose()`. You have to read the integers in given file, and store the sum. Further instructions are in the comments in the function in file `fileint.c`.
 
 You also need to write a function called `writeSum(char * filename, int sum)` that writes the sum as an integer which name is `filename`. Further instructions are in the comments in the function in file `fileint.c`
 
