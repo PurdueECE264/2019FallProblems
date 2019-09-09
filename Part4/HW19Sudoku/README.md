@@ -64,12 +64,13 @@ output will be directed to a file).
 
 This is how your program will be tested:
 
-./hw19 inputs/test1 > output1
-diff output1 expected/expected1
+`./hw19 inputs/test1 > output1`
+
+`diff output1 expected/expected1`
 
 
 ```
-zip hw19.zip 
+zip hw19.zip all-necessary-files
 ```
 
 Upload hw19.zip to Blackboard.
