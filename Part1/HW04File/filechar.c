@@ -6,7 +6,7 @@
 #include <stdbool.h>
 
 #ifdef TEST_COUNTCHAR
-bool countChar(char * filename, char * counts, int size)
+bool countChar(char * filename, int * counts, int size)
 {
   // open a file whose name is filename for reading
   // if fopen fails, return false. Do NOT fclose
@@ -19,7 +19,7 @@ bool countChar(char * filename, char * counts, int size)
   // reemember to call fclose
   // you may assume that counts already initialized to zero
   // size is the size of counts
-  // you may assume that counts has enough memory space 
+  // you may assume that counts has enough memory space
   //
   // hint: use fgetc
   // Please read the document of fgetc carefully, in particular
@@ -30,7 +30,7 @@ bool countChar(char * filename, char * counts, int size)
 #endif
 
 #ifdef TEST_PRINTCOUNTS
-void printCounts(char * counts, int size)
+void printCounts(int * counts, int size)
 {
   // print the values in counts in the following format
   // each line has three items:
