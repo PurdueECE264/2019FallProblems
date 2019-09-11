@@ -45,8 +45,8 @@ the guesses lead to violating one or multiple rules.  The players have
 to change the guessed values.
 
 This assignment considers only the games in which every cell's values
-can be uniquely determined. The problem is finding these cells
-in the proper orders.
+can be uniquely determined. The problem is filling in these cells by
+finding the un-filled cells in the proper orders.
 
 Sample Inputs and Expected Outputs
 ==================================
