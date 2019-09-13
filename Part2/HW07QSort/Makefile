@@ -19,7 +19,7 @@ hw07: $(OBJS)
 	$(GCC) $(TESTFALGS) -c $*.c
 
 testmemory: hw07
-	$(VAL) ./hw07 inputs/input3 > output3
+	$(VAL) ./hw07 inputs/input3 output3
 #testing only input3 and output3
 
 testall: test1 test2 test3 test4
