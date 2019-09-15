@@ -35,9 +35,9 @@ int main(int argc, char * * argv)
 
   bool rtv = readInt(argv[1], intArr, numElem);
 
-  if (rtv == false) // read fail
-    {
-  
+  if (rtv == false) //if read fails, return EXIT_FAILURE
+    { 
+
     }
   
   // call qsort using the comparison function you write
