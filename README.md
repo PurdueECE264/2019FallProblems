@@ -20,24 +20,24 @@ The problems are classified into four parts:
 Tentative Schedule
 ==================
 
-|Week | Monday | Tuesday | Wednesday | Thursday | Friday |
-|-----|--------|---------|-----------|----------|--------|
-| 01  |        |         |           |          |  01    |
-| 02  |        |         |    02     |          |        |
-| 03  |        |   03    |           |          |        |
-| 04  |  04    |         |           |          |  05    |
-| 05  |        |         |    06     |          |        |
-| 06  |  07    |         |           |          |  08    |
-| 07  |        |         |           |   09     |        |
-| 08  |        |         |   10      |          |        |
-| 09  |        |   11    |           |          |        |
-| 10  |  12    |         |           |          |   13   |
-| 11  |        |         |           |   14     |        |
-| 12  |        |         |   15      |          |        |
-| 13  |        |   16    |           |          |        |
-| 14  |  17    |         |           |          |        |
-| 15  |        Thanksgiving                              |
-| 16  |        |  18     |           |          |  bonus |
+|Week | Monday | Tuesday | Wednesday | Thursday | Friday     |
+|-----|--------|---------|-----------|----------|------------|
+| 01  |        |         |           |          |  01        |
+| 02  |        |         |    02     |          |            |
+| 03  |        |   03    |           |          |            |
+| 04  |  04    |         |           |          |  05        |
+| 05  |        |         |    06     |          |            |
+| 06  |  07    |         |           |          |  08        |
+| 07  |        |         |           |   09     |            |
+| 08  |        |         |   10      |          |            |
+| 09  |        |   11    |           |          |            |
+| 10  |  12    |         |           |          |   13       |
+| 11  |        |         |           |   14     |            |
+| 12  |        |         |   15      |          |            |
+| 13  |        |   16    |           |          |            |
+| 14  |  17    |         |           |          |            |
+| 15  |        Thanksgiving                                  |
+| 16  |        |  18     |           |          | 19 (bonus) |
 
 Part 1 Basic
 ============
@@ -74,6 +74,7 @@ Part 4 Applications
 
 * HW17Maze: find the shortest distances between the source to all reachable locations
 * HW18Memory: allocate and free memory blocks and bit operations
+* HW19Sudoku (bonus): solve Sudoku problems
 
 
 How are Programming Assignments Graded?
