@@ -36,7 +36,7 @@ else.  The teaching staff is strictly prohibited seeing anything on
 your computer for grading.
 
 ```
-zip hw06.zip fileint.c
+zip hw06.zip filestr.c
 ```
 
 Enter Blackboard, upload `hw06.zip`.
