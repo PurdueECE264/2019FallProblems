@@ -45,9 +45,8 @@ Printing ListNode
 
 You should call `printListNode` each time BEFORE you delete any node 
 and print the node value. In the expected files, `printListNode` is not
-called for the last value in the list. You can either follow the 
-expected files format or call `printListNode` for every node deleted 
-including the last node. You can turn on the DEBUG flag in your Makefile
+called for the last value in the list. Follow the 
+expected files format. You can turn on the DEBUG flag in your Makefile
 for printing.
 
 Submission
