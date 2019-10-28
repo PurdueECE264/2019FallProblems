@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include "calculate.h"
 
 // DO NOT MODIFY FROM HERE --->>>
@@ -20,7 +21,8 @@ int isOperator(char * word)
   int numop = sizeof(Operations) / sizeof(int);
   for (ind = 0; ind < numop; ind ++)
     {
-      if (strchr(word, Operations[ind]) != NULL)
+    char *loc = strchr(word, Operations[ind]);
+    if (loc != NULL && !isdigit(loc[1]))
 	{
 	  return ind;
 	}
