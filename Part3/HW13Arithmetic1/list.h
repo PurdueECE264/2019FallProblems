@@ -7,7 +7,7 @@
 
 #define WORDLENGTH 10
 // assume each numbers use at most 9 digits
-// the fifth character stores '\0'
+// the tenth character stores '\0'
 
 #include <stdbool.h>
 
