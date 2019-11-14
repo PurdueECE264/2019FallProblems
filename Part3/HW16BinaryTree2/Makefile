@@ -6,7 +6,7 @@ WARNING = -Wall -Wshadow --pedantic
 ERROR = -Wvla -Werror
 GCC = gcc -std=c99 -g $(WARNING) $(ERROR) 
 VAL = valgrind --tool=memcheck --log-file=vallog --leak-check=full --verbose
-TESTFALGS = -DTEST_CONVERT -DTEST_READLIST -DTEST_DELETELIST -DTEST_ADDNODE -DTEST_DELETENODE 
+TESTFALGS = -DTEST_BUILDTREE -DTEST_PRINTPATH 
 
 SRCS = main.c tree.c
 OBJS = $(SRCS:%.c=%.o)
