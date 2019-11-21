@@ -69,6 +69,17 @@ whether an input maze is valid or not.
   possible that some cells may be reached by different routes.
 
 
+Output Format
+=============
+
+Your output should match the ones in the expected files. Some key notes:
+
+* Walls should have value -1
+* Start should have value 0, as it requires 0 steps to get to that
+  location
+* Open spaces that aren't reachable should have value `width * height + 1`, which is
+  the theoretical maximum amount of steps
+
 Submission
 ==========
 
