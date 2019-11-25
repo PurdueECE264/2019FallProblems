@@ -280,6 +280,13 @@ to improve efficiency (in memory, or time, or both).  Obviously, your
 program must be fast enough so it can be graded. Please make sure your
 program does not enter an infinite loop in any case.
 
+Create Your Own Test Cases
+==========================
+
+This is the last assignment. You need to know how to create test cases now.
+
+DO NOT ASK FOR TEST CASES.
+
 
 Submission
 ==========
